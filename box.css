@@ -1,0 +1,42 @@
+.main{
+    background-color: aqua;
+
+}
+.image-container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+.image{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    padding: 0 30px;
+    
+   
+    
+}
+
+.img2{
+    transition: transform 2s;
+}
+
+.img1{
+    transform: scale(0.5);
+    transition: transform 2s;
+}
+
+
+.image:hover .img1{
+    transform: scale(1);
+}
+
+.image:hover .img2{
+    transform: scale(0.5);
+}
